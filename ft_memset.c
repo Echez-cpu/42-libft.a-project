@@ -1,25 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/14 17:09:40 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/14 20:11:56 by pokpalae         ###   ########.fr       */
+/*   Created: 2023/11/14 20:12:54 by pokpalae          #+#    #+#             */
+/*   Updated: 2023/11/14 22:51:42 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-size_t	ft_strlen(const char *str);
+void	*ft_memset(void *b, int c, size_t len);
 
-size_t	ft_strlen(const char *str)
+void	*ft_memset(void *b, int c, size_t len)
 {
-	size_t	len;
+	unsigned char	*ptr;
+	unsigned char	value;
 
-	len = 0;
-	while (str[len] != '\0')
+	ptr = b;
+	value = (unsigned char)c;
+	while (len > 0)
 	{
-		len++;
+		*ptr = value;
+		ptr++;
+		len--;
 	}
-	return (len);
+	return (b);
 }
