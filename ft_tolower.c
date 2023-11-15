@@ -1,26 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/15 16:41:09 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/15 16:48:44 by pokpalae         ###   ########.fr       */
+/*   Created: 2023/11/15 23:08:14 by pokpalae          #+#    #+#             */
+/*   Updated: 2023/11/15 23:10:06 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_bzero(void *s, size_t n);
+int	ft_tolower(int c);
 
-void	ft_bzero(void *s, size_t n)
+int	ft_tolower(int c)
 {
-	unsigned char	*ptr;
-
-	ptr = s;
-	while (n > 0)
+	if (c >= 'A' && c <= 'Z')
 	{
-		*ptr = 0;
-		ptr++;
-		n--;
+		return (c + (32));
+	}
+	else
+	{
+		return (c);
 	}
 }

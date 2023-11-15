@@ -1,26 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/15 16:41:09 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/15 16:48:44 by pokpalae         ###   ########.fr       */
+/*   Created: 2023/11/15 16:49:56 by pokpalae          #+#    #+#             */
+/*   Updated: 2023/11/15 21:32:01 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_bzero(void *s, size_t n);
+void	*memcpy(void *restrict dst, const void *src, size_t n);
 
-void	ft_bzero(void *s, size_t n)
+void	*memcpy(void *restrict dst, const void *src, size_t n)
 {
-	unsigned char	*ptr;
+	unsigned char		*destination;
+	const unsigned char	*source;
 
-	ptr = s;
+	destination = dst;
+	source = src;
 	while (n > 0)
 	{
-		*ptr = 0;
-		ptr++;
+		*destination = *source;
+		destination++;
+		source++;
 		n--;
 	}
+	return (dst);
 }
