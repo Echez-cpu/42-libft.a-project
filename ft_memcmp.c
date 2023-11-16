@@ -1,25 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_tolower.c                                       :+:      :+:    :+:   */
+/*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/15 23:08:14 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/16 21:16:05 by pokpalae         ###   ########.fr       */
+/*   Created: 2023/11/16 16:27:58 by pokpalae          #+#    #+#             */
+/*   Updated: 2023/11/16 17:11:46 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_tolower(int c);
+int	ft_memcmp(const void *s1, const void *s2, size_t n);
 
-int	ft_tolower(int c)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	if (c >= 'A' && c <= 'Z')
+	const unsigned char	*s1_help;
+	const unsigned char	*s2_help;
+
+	s1_help = s1;
+	s2_help = s2;
+	while (n > 0)
 	{
-		return (c + (32));
+		if (*s1_help != *s2_help)
+		{
+			return (*s1_help - *s2_help);
+		}
+		s1_help++;
+		s2_help++;
+		n--;
 	}
-	else
-	{
-		return (c);
-	}
+	return (0);
 }

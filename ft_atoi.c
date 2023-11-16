@@ -1,25 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_tolower.c                                       :+:      :+:    :+:   */
+/*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/15 23:08:14 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/16 21:16:05 by pokpalae         ###   ########.fr       */
+/*   Created: 2023/11/16 20:50:20 by pokpalae          #+#    #+#             */
+/*   Updated: 2023/11/16 21:13:52 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_tolower(int c);
+int	ft_atoi(const char *str);
 
-int	ft_tolower(int c)
+int	ft_atoi(const char *str)
 {
-	if (c >= 'A' && c <= 'Z')
+	int	res;
+	int	sign;
+
+	res = 0;
+	sign = 1;
+	while (*str == 32 || (*str >= 9 && *str <= 13))
+		*str++;
+	if (*str == '-')
+		sign *= -1;
+	if (*str == '-' || *str == '+')
+		str++;
+	while (*str >= '0' && *str <= '9')
 	{
-		return (c + (32));
+		res = res * 10 + (*str - '0');
+		str++;
 	}
-	else
-	{
-		return (c);
-	}
+	return (sign * result);
 }

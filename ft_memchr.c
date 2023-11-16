@@ -1,25 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_tolower.c                                       :+:      :+:    :+:   */
+/*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/15 23:08:14 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/16 21:16:05 by pokpalae         ###   ########.fr       */
+/*   Created: 2023/11/16 15:40:10 by pokpalae          #+#    #+#             */
+/*   Updated: 2023/11/16 16:27:21 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_tolower(int c);
+void	*ft_memchr(const void *s, int c, size_t n);
 
-int	ft_tolower(int c)
+void	*ft_memchr(const void *s, int c, size_t n)
 {
-	if (c >= 'A' && c <= 'Z')
+	const unsigned char	*ptr;
+
+	ptr = s;
+	while (n > 0 && *ptr != (unsigned char)c)
 	{
-		return (c + (32));
+		ptr++;
+		n--;
+	}
+	if (n > 0)
+	{
+		return ((void *)ptr);
 	}
 	else
 	{
-		return (c);
+		return ((void *)0);
 	}
 }

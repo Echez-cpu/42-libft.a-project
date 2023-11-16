@@ -1,25 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_tolower.c                                       :+:      :+:    :+:   */
+/*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/15 23:08:14 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/16 21:16:05 by pokpalae         ###   ########.fr       */
+/*   Created: 2023/11/16 14:09:37 by pokpalae          #+#    #+#             */
+/*   Updated: 2023/11/16 14:33:22 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_tolower(int c);
+char	*ft_strrchr(const char *s, int c);
 
-int	ft_tolower(int c)
+char	*ft_strrchr(const char *s, int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	const char	*last_found;
+
+	last_found = ((void *)0);
+	while (*s != '\0')
 	{
-		return (c + (32));
+		if (*s == (char)c)
+		{
+			last_found = s;
+		}
+		s++;
 	}
-	else
+	if ((char)c == '\0')
 	{
-		return (c);
+		return ((char *)s);
 	}
+	return ((char *)last_found);
 }

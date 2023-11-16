@@ -1,25 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_tolower.c                                       :+:      :+:    :+:   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/15 23:08:14 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/16 21:16:05 by pokpalae         ###   ########.fr       */
+/*   Created: 2023/11/16 14:35:15 by pokpalae          #+#    #+#             */
+/*   Updated: 2023/11/16 15:39:12 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_tolower(int c);
+int	ft_strncmp(const char *s1, const char *s2, size_t n);
 
-int	ft_tolower(int c)
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	if (c >= 'A' && c <= 'Z')
+	while (n > 0 && *s1 != '\0' && *s1 == *s2)
 	{
-		return (c + (32));
+		s1++;
+		s2++;
+		n--;
+	}
+	if (n == 0)
+	{
+		return (0);
 	}
 	else
 	{
-		return (c);
+		return ((const char)*s1 - (const char)*s2);
 	}
 }
