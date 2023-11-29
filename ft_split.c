@@ -6,7 +6,7 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/21 12:25:13 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/27 23:49:11 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/29 23:08:41 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ static char	**free_array(char **ptr, int i)
 		free(ptr[i]);
 	}
 	free(ptr);
-	return (NULL);
+	return ((void *)0);
 }
 
 static int	no_substrings(char const *str, char c)
