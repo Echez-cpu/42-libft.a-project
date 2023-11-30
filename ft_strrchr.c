@@ -6,11 +6,9 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 14:09:37 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/16 14:33:22 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:39:04 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-char	*ft_strrchr(const char *s, int c);
 
 char	*ft_strrchr(const char *s, int c)
 {

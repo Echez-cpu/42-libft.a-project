@@ -6,13 +6,11 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 13:40:02 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/20 14:26:38 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:36:37 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-
-char	*ft_strjoin(char const *s1, char const *s2);
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

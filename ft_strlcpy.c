@@ -6,11 +6,10 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 20:03:42 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/15 21:47:41 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:37:33 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-size_t		ft_strlcpy(char *dst, const char *src, size_t dstsize);
 static void	copy_size(char *dstptr, const char *src, size_t dstsize);
 
 static void	copy_size(char *dstptr, const char *src, size_t dstsize)

@@ -6,13 +6,11 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 12:08:18 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/20 13:35:08 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:40:26 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-
-char	*ft_substr(char const *s, unsigned int start, size_t len);
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

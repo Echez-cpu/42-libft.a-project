@@ -6,13 +6,11 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/21 12:25:13 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/29 23:08:41 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:35:28 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-
-char		**ft_split(char const *s, char c);
 
 static char	**free_array(char **ptr, int i)
 {

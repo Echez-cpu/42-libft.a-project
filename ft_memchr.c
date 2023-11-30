@@ -6,11 +6,9 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 15:40:10 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/16 16:27:21 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:32:15 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-void	*ft_memchr(const void *s, int c, size_t n);
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

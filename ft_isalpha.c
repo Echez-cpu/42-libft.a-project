@@ -6,11 +6,9 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 13:41:57 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/14 15:23:15 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:30:20 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-int	ft_isalpha(char c);
 
 int	ft_isalpha(char c)
 {

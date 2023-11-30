@@ -6,11 +6,9 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 17:09:40 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/14 20:11:56 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:37:57 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-size_t	ft_strlen(const char *str);
 
 size_t	ft_strlen(const char *str)
 {

@@ -6,11 +6,9 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 15:17:26 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/14 15:27:19 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:30:42 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-int	ft_isdigit(char c);
 
 int	ft_isdigit(char c)
 {

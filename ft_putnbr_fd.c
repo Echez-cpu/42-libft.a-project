@@ -1,27 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/14 20:12:54 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 14:34:13 by pokpalae         ###   ########.fr       */
+/*   Created: 2023/11/30 12:11:29 by pokpalae          #+#    #+#             */
+/*   Updated: 2023/11/30 14:34:44 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	*ft_memset(void *b, int c, size_t len)
-{
-	unsigned char	*ptr;
-	unsigned char	value;
+#include <unistd.h>
 
-	ptr = b;
-	value = (unsigned char)c;
-	while (len > 0)
+void	ft_putnbr_fd(int n, int fd)
+{
+	long	hold;
+
+	hold = n;
+	if (hold < 0)
 	{
-		*ptr = value;
-		ptr++;
-		len--;
+		ft_putchar_fd('-', fd);
+		hold *= -1;
 	}
-	return (b);
+	if (hold >= 10)
+	{
+		ft_putnbr_fd(hold / 10, fd);
+		ft_putchar_fd(hold % 10 + '0', fd);
+	}
+	else
+		ft_putchar_fd(hold + '0', fd);
 }

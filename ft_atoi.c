@@ -6,11 +6,9 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 20:50:20 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/16 21:13:52 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:29:37 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-int	ft_atoi(const char *str);
 
 int	ft_atoi(const char *str)
 {

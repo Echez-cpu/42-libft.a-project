@@ -6,11 +6,9 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 15:50:52 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/14 17:01:22 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:31:15 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-int	ft_isprint(int c);
 
 int	ft_isprint(int c)
 {

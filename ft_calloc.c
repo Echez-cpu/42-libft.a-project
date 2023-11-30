@@ -6,13 +6,11 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 13:04:23 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/17 15:13:45 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:29:45 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-
-void	*ft_calloc(size_t count, size_t size);
 
 void	*ft_calloc(size_t count, size_t size)
 {

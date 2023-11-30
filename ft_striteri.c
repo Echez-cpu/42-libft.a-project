@@ -6,11 +6,9 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/29 16:59:11 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/29 20:25:32 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:36:20 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {

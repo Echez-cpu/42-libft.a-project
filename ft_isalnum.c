@@ -6,11 +6,9 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 15:28:09 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/14 15:35:38 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:29:50 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-int	ft_isalnum(char c);
 
 int	ft_isalnum(char c)
 {
