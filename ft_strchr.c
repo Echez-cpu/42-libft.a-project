@@ -6,9 +6,11 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 12:36:15 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 14:35:45 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 19:52:26 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {

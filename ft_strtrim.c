@@ -6,15 +6,16 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 14:56:33 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 14:40:11 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 20:05:49 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stdlib.h>
 
-static char	*ft_strncpy(char *dest, char *src, unsigned int n);
+static char	*ft_strncpy(char *dest, const char *src, unsigned int n);
 
-static char	*ft_strncpy(char *dest, char *src, unsigned int n)
+static char	*ft_strncpy(char *dest, const char *src, unsigned int n)
 {
 	unsigned int	i;
 

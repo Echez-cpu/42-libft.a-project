@@ -6,13 +6,12 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/29 20:28:15 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 13:22:18 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 19:56:09 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <unistd.h>
-
-void	ft_putchar_fd(char c, int fd);
 
 void	ft_putchar_fd(char c, int fd)
 {

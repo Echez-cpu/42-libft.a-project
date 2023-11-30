@@ -6,11 +6,13 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 21:51:06 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 14:36:53 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 19:59:17 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-size_t	ft_strlen(char *str)
+#include "libft.h"
+
+size_t	ft_strlen(const char *str)
 {
 	size_t	len;
 

@@ -6,10 +6,11 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 12:11:29 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 14:34:44 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 19:52:04 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <unistd.h>
 
 void	ft_putnbr_fd(int n, int fd)

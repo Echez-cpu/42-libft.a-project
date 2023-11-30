@@ -6,10 +6,11 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 13:40:02 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 14:36:37 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 19:52:51 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stdlib.h>
 
 char	*ft_strjoin(char const *s1, char const *s2)

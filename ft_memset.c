@@ -6,9 +6,11 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 20:12:54 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 14:34:13 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 19:51:43 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	*ft_memset(void *b, int c, size_t len)
 {

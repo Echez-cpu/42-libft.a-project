@@ -6,9 +6,11 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 22:29:23 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 14:40:58 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 19:54:03 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_toupper(int c)
 {

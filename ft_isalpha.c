@@ -6,9 +6,11 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 13:41:57 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 14:30:20 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 19:50:37 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isalpha(char c)
 {

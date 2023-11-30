@@ -6,9 +6,11 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 15:36:38 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 14:30:27 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 19:50:43 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isascii(int c)
 {
