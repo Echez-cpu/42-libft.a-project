@@ -6,7 +6,7 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 20:50:20 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 14:29:37 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/11/30 19:46:02 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,5 @@ int	ft_atoi(const char *str)
 		res = res * 10 + (*str - '0');
 		str++;
 	}
-	return (sign * result);
+	return (sign * res);
 }
