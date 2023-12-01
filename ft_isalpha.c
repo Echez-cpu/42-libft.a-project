@@ -6,13 +6,13 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 13:41:57 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 19:50:37 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/12/01 16:12:17 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalpha(char c)
+int	ft_isalpha(int c)
 {
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 	{

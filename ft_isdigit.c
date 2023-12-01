@@ -6,13 +6,13 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 15:17:26 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 19:50:51 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/12/01 16:16:46 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(char c)
+int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 	{

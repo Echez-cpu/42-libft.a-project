@@ -6,13 +6,13 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 15:28:09 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 19:50:28 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/12/01 16:20:51 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalnum(char c)
+int	ft_isalnum(int c)
 {
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c >= '0'
 			&& c <= '9'))

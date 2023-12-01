@@ -6,7 +6,7 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 14:26:34 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/12/01 11:34:26 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/12/01 16:21:16 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,10 +20,10 @@
 int		ft_atoi(const char *str);
 void	ft_bzero(void *s, size_t n);
 void	*ft_calloc(size_t count, size_t size);
-int		ft_isalnum(char c);
-int		ft_isalpha(char c);
+int		ft_isalnum(int c);
+int		ft_isalpha(int c);
 int		ft_isascii(int c);
-int		ft_isdigit(char c);
+int		ft_isdigit(int c);
 int		ft_isprint(int c);
 char	*ft_itoa(int n);
 void	*ft_memchr(const void *s, int c, size_t n);
