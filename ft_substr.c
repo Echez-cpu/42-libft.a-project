@@ -6,7 +6,7 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 12:08:18 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 19:53:49 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/12/01 14:53:18 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		return ((void *)0);
 	s_len = ft_strlen(s);
 	if (start >= s_len)
-		return ((void *)0);
+		return (ft_strdup(""));
 	if (len > s_len - start)
 		len = s_len - start;
 	substring = (char *)malloc((len + 1) * sizeof(char));
