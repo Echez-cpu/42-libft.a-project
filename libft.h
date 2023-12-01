@@ -6,13 +6,14 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 14:26:34 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/12/01 16:21:16 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/12/01 17:35:03 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <stddef.h>
+# include <stdint.h>
 # include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
