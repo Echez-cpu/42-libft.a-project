@@ -6,7 +6,7 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 14:35:15 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 19:53:23 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/12/01 11:42:47 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	else
 	{
-		return ((const char)*s1 - (const char)*s2);
+		return ((unsigned char)*s1 - (unsigned char)*s2);
 	}
+	return (0);
 }

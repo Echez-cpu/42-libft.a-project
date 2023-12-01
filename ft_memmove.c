@@ -6,7 +6,7 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 17:49:21 by pokpalae          #+#    #+#             */
-/*   Updated: 2023/11/30 19:51:36 by pokpalae         ###   ########.fr       */
+/*   Updated: 2023/12/01 11:33:34 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ static void	backward_copy(unsigned char *destination,
 	}
 }
 
-void	*memmove(void *dst, const void *src, size_t len)
+void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	unsigned char		*destination;
 	const unsigned char	*source;
