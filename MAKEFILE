@@ -5,11 +5,10 @@
 #                                                     +:+ +:+         +:+      #
 #    By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/11/30 14:43:02 by pokpalae          #+#    #+#              #
-#    Updated: 2023/12/03 18:19:34 by pokpalae         ###   ########.fr        #
+#    Created: 2023/12/03 22:10:33 by pokpalae          #+#    #+#              #
+#    Updated: 2023/12/03 22:10:39 by pokpalae         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-
 
 SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c \
        ft_isprint.c ft_strlen.c ft_memset.c ft_bzero.c \
